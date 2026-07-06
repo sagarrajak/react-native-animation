@@ -11,6 +11,7 @@ import BallAnimation from './src/StartedStyle';
 import { AnimatedCircleCustom } from './src/AnimatedCircle';
 import { BouncingBall } from './src/BouncingBall';
 import { ShakeAnimation } from './src/ShakeAnimation';
+import { AnimatedProgress } from './src/AnimatedProgress';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -23,7 +24,8 @@ function App() {
         {/* <BallAnimation />
         <AnimatedCircleCustom /> */}
         {/* <BouncingBall /> */}
-        <ShakeAnimation />
+        {/* <ShakeAnimation /> */}
+        <AnimatedProgress />
       </View>
     </SafeAreaProvider>
   );
